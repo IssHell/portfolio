@@ -25,6 +25,17 @@ body {
   align-items: center;
 }
 
+.apache-centos {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+.apache-centos img {
+  width: 80px;
+}
+
+
 .wrapper{
   width: 50%;
 }
@@ -274,6 +285,9 @@ ul li a {
   .top-text p {
     font-size: 70px;
   }
+  .apache-centos {
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 600px), only screen and (max-device-width: 600px){
@@ -291,5 +305,9 @@ ul li a {
 
   .top-text p {
     font-size: 40px;
+  }
+
+  .apache-centos {
+    visibility: hidden;
   }
 }
